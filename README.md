@@ -22,9 +22,9 @@ email to lukluk@livaza.com
 
 example csv :
 ```
-"ID","Name","Address1","Address2"
-"KJS0001","Hendro","Jakarta","Indonesia"
-"KHO0001","Yanto","solo","Indonesia"
+"ID","Name","Address1","Address2","Skill"
+"KJS0001","Hendro","jakartA","Indonesia","Nodejs,PHP"
+"KHO0001","Yanto","soLo","Indonesia","Photosope,Corel"
 ```
 
 expected output:
@@ -32,12 +32,20 @@ expected output:
 ```
 {
   "KJS0001":{
-    "Name':"Hendro",
-    "Address":["Jakarta","Indonesia"]
+    "Name':"Lukluk",
+    "Address":{
+        "city":"Jakarta",
+        "country":"Indonesia"
+    },
+    "skill":["Nodejs","PHP"]
   },
   "KHO0001":{
     "Name":"Yanto",
-    "Address":["solo","Indonesia"]
+    "Address":{
+        "city":"Solo",
+        "country":"Indonesia"
+    },
+    "skill":["Photosope","Corel"]
   }
 }
 ```
