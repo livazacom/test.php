@@ -23,7 +23,7 @@ email to lukluk@livaza.com
 example csv :
 ```
 "ID","Name","Address1","Address2","Skill"
-"KJS0001","Hendro","jakartA","Indonesia","Nodejs,PHP"
+"KJS0001","Lukluk","jakartA","Indonesia","Nodejs,PHP"
 "KHO0001","Yanto","soLo","Indonesia","Photosope,Corel"
 ```
 
